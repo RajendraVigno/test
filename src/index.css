@@ -1,0 +1,133 @@
+   @import "tailwindcss/base";
+   @import "tailwindcss/components";
+   @import "tailwindcss/utilities";
+
+
+   body {
+    color: #212121 !important;
+    font-family: "Inter, sans-serif" !important;
+   }
+
+   .MuiPickersSectionList-root{
+    height: 3rem !important;
+   }
+
+   .fontSize10{
+    font-size: 10px !important;
+   }
+
+   .MuiFormLabel-root{
+    font-size: 12px !important;
+   }
+
+   .trimText{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+   }
+
+   .MuiInputBase-root{
+    height: 3rem !important;
+   }
+
+   .MuiCollapse-root{
+    background-color: white;
+   }
+
+   .priceRange > MuiInputBase-input{
+    height: 2rem !important;
+   }
+
+   .height2{
+    height: 2rem !important;
+   }
+
+   .sc-hvigdm {
+    margin-bottom: 1rem !important;
+   }
+   .fontSize12{
+    font-size: 12px !important;
+   }
+
+   
+
+   .fontSize24{
+    font-size: 24px !important;
+    color: #000 !important;
+    font-weight: 900 !important;
+    line-height: 1.5rem;
+   }
+
+   .fontWait900{
+    font-weight: 900 !important;
+   }
+
+   a{
+    text-decoration: none !important;
+   }
+
+   .ColorOrange{
+    color: #FF6D00 !important;
+   }
+
+    .ColorPeach{
+    color: #FFE0B2;
+   }
+
+   .bgWhite{
+    background-color: white !important;
+   }
+
+   .cardHover:hover{
+      border: blue solid 2px !important;
+   }
+
+   .bgAsh{
+    background-color: #f2f2f2 !important;
+   }
+
+   .MuiMultiInputDateRangeField-root{
+    background-color: #f2f2f2 !important;
+   }
+
+   .MuiDateRangeCalendar-root > div{
+    font-size: 0 !important;
+   }
+
+   .bgPeach{
+    background-color: #FFE0B2 !important;
+   }
+
+   .alignEnd{
+    text-align: end !important
+   }
+
+   .bgOrange{
+    background: #FF6D00 !important;
+   }
+
+   .weight900{
+    font-weight: 900
+   }
+
+   .borderOrange{
+    border: 2px solid #FF6D00 !important
+   }
+
+   .borderOrange:hover{
+    background: #FF6D00 !important;
+    color: white !important;
+   }
+   
+
+   .hide-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+}
+ 
+
+   code {
+     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+       monospace;
+   }
